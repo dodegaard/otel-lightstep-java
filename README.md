@@ -15,11 +15,13 @@ Fun little test to see how to use LightStep to instrument a set of java applicat
 
 ## Service Names
 gamestore-server --> server
+
 gamestore-mobileapp --> client
 
 ## Endpoints for each service for Postman calls to test
 
 client --> http://127.0.0.1:8084/mobile/checkstock/{console}
+
 server --> http://127.0.0.1:8083/availability/{console}
 
 Values for {console} include "xbox", "ps3", "ps5"
